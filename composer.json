@@ -1,0 +1,33 @@
+{
+    "name": "orthosie/jokes-api",
+    "description": "Jokes One API Client",
+    "keywords": ["jokes", "joke-of-the-day", "knock-knock-jokes", "blonde-jokes", "chuck-norris-jokes", "programming-jokes"],
+    "homepage": "https://github.com/orthosie/jokes-api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jokes.one"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Jokes\\One\\": "php/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jokes\\One\\Tests\\": "php/tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
